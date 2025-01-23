@@ -6,9 +6,9 @@ import time
 
 name = input("What is your name?\n>>>")
 
-pacote = ["demonic eye","goblin","slime","zombie","spider","skeleton","dragon","chimera"]
+package = ["demonic eye","goblin","slime","zombie","spider","skeleton","dragon","chimera"]
 
-chosenmonster = random.choice(pacote)
+chosenmonster = random.choice(package)
 
 print(" ")
 print("an {} appeared!".format(chosenmonster))
